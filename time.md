@@ -1,5 +1,5 @@
 ### 获取最近更新的时间;
- getUpdateTime(date) {
+ `getUpdateTime(date) {
     if (date == null) {
       return null;
     }
