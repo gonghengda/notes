@@ -1,0 +1,11 @@
+ var gotop = function() {
+    if (window.pageYOffset <= 0) {
+      return window.cancelAnimationFrame(timer);
+    }
+    window.scrollTo(0, window.pageYOffset - 200);
+    timer = window.requestAnimationFrame(gotop);
+  };
+  var timer = window.requestAnimationFrame(gotop);
+  
+      
+    window.scrollTo(0, 0);
