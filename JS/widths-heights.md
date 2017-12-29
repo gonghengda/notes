@@ -4,7 +4,7 @@
 
 *网络上有张图片解释的很清楚*
 
-![](./wh.jpg)
+![](https://github.com/Gnotes/widths-heights/raw/master/wh.jpg)
 
 ***从这张图大致可以将这些值分为四类***
 
