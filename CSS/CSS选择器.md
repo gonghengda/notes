@@ -1,6 +1,6 @@
 ## 基本选择器
 
-|选择器	|例子|	功能描述
+|选择器	|例子|	功能描述 
 |-|-|-|
 |.class	        | .intro	    | 选择 class="intro" 的所有元素。	|
 |#id   	        | #firstname	| 选择 id="firstname" 的所有元素。|
@@ -75,4 +75,4 @@ E:target|	选择匹配E的所有元素，且匹配元素被相关URL指向
 \[attribute$=value]	  | a\[src$=".pdf"]	| 选择其 src 属性以 ".pdf" 结尾的所有 `<a>` 元素。
 \[attribute*=value]	  | a\[src*="abc"]	  | 选择其 src 属性中包含 "abc" 子串的每个 `<a>` 元素。
 
-本文参考 [W3C标准](https://www.w3.org/TR/css3-selectors/#selectors)
+本文参考 [W3C标准](https://www.w3.org/TR/css3-selectors/#selectors)-
