@@ -1,6 +1,6 @@
 下面是 ES6 的常用语法入门实例，通过实例来快速学习 ES6 语法；对 JavaScript 更全面的了解可以参考 Mozilla 提供的更详细的文档 [MDN web docs](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference) ，规范 [ ECMAScript 2015 (6th Edition, ECMA-262)](http://www.ecma-international.org/ecma-262/6.0/#sec-class-definitions)
 
-[![MDN web docs](./assets/mdn-logo.svg)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference)
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference
 
 ## 变量声明
 
