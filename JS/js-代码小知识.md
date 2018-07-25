@@ -32,3 +32,9 @@ svg标签渲染 `<div dangerouslySetInnerHTML={{__html:text}} />`
   getAttribute('value')` 获取标签里的属性
   attributes["value"].value;  
 ```
+
+## 格式化
+```
+将1000转化为1,000
+new Intl.NumberFormat().format(1000); // '1,000'
+```
