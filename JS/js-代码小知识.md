@@ -37,4 +37,6 @@ svg标签渲染 `<div dangerouslySetInnerHTML={{__html:text}} />`
 ```
 将1000转化为1,000
 new Intl.NumberFormat().format(1000); // '1,000'
+(13123123).toLocaleString('en-US')
+
 ```
