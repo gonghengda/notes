@@ -16,6 +16,15 @@ vim someplugin.vba
 :q
 ```
 
+**常用命令**
+```shell
+杀进程
+lsof -i :端口 
+kill -9 进程ID
+
+source .bash_profile 【使我们的vim改动生效】
+```
+
 **插件管理工具** `vundle`
 
 **`.vimrc`** vim配置文件,位于`~/.vimrc`,可以设置软链到其他目录下...
