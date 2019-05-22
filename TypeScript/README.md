@@ -30,11 +30,18 @@ dad.name = "Man with the 3-piece suit"; // 错误! name 是只读的.
 ```
 # interface
 
-- 我们也可以使用 interface 定义我们的复杂类型，在 TS 中我们也可以直接定义 interface：  可以继承
+- 我们也可以使用 interface 定义我们的复杂类型，在 TS 中我们也可以直接定义 interface：  
 ```js
 interface Application {
     init(): void
     get(key: string): object
+}
+```
+- 也可以继承
+```
+export interface AbstractPickerProps extends PickerPropsType {
+  pickerPrefixCls?: string;
+  popupPrefixCls?: string;
 }
 ```
 
