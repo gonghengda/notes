@@ -5,14 +5,14 @@
 1. 默认为 public
 2. private 私有的
 > 当成员被标记成 private时，它就不能在声明它的类的外部访问。比如：
-    ```js
-    class Animal {
-        private name: string;
-        constructor(theName: string) { this.name = theName; }
-    }
+```js
+class Animal {
+    private name: string;
+    constructor(theName: string) { this.name = theName; }
+}
 
-    new Animal("Cat").name; // 错误: 'name' 是私有的.
-    ```
+new Animal("Cat").name; // 错误: 'name' 是私有的.
+```
 3. protected修饰符 与 private修饰符的行为很相似，但有一点不同， protected成员在派生类中仍然可以访问。
 4. readonly修饰符
 > 你可以使用 readonly关键字将属性设置为只读的。 只读属性必须在声明时或构造函数里被初始化。
