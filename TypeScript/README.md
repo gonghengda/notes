@@ -52,7 +52,7 @@ declare namespace tasaid {
 }
 ```
 
-# namespace
+# namespace 命名空间
 
 - 为防止类型重复，使用 namespace 用于划分区域块，分离重复的类型，顶层的 namespace 需要 declare 输出到外部环境，子命名空间不需要 declare。
 
